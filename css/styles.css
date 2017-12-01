@@ -37,9 +37,9 @@ body !h1 {
     justify-content: flex-start;
   }
 
-  /*.navbar-toggler{
+  .navbar-toggler{
     border: 0;
-  }*/
+  }
 
   .logo {
     width: 200px;
@@ -56,15 +56,21 @@ body !h1 {
     margin-bottom: 3em;
   }
 
-  .large-article1 {
-    background-color: red;
+  .card-img-top {
+    background-color: #cfd8dd;
+  }
+
+  /*.large-article1 {
+    background-image: url('../img/tablet.jpg');
+    background-size: cover;
     height: 100%;
   }
 
   .large-article2 {
-    background-color: blue;
+    background-image: url('../img/present.jpg');
+    background-size: cover;
     height: 100%;
-  }
+  }*/
 
   /*RESOURCES*/
 
