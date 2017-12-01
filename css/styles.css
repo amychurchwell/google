@@ -52,25 +52,24 @@ body !h1 {
   /*ARTICLES*/
 
   .card {
-    height: 200%;
-    margin-bottom: 3em;
+    margin-bottom: 1em;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.10);
   }
 
   .card-img-top {
     background-color: #cfd8dd;
+    display: none;
   }
 
-  /*.large-article1 {
-    background-image: url('../img/tablet.jpg');
-    background-size: cover;
-    height: 100%;
+  .card-img-left {
+    float: left;
+    width: 50%;
+    padding-right: 20px;
   }
 
-  .large-article2 {
-    background-image: url('../img/present.jpg');
-    background-size: cover;
-    height: 100%;
-  }*/
+  .card-body{
+
+  }
 
   /*RESOURCES*/
 
@@ -78,8 +77,9 @@ body !h1 {
 
 /*FOOTER*/
 
+/*MEDIA QUERIES*/
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
   .card {
     height: 100%;
   }
@@ -87,4 +87,16 @@ body !h1 {
   .lead, .btn-subscribe{
     display: block;
   }
+
+  .card-img-left{
+    display: none;
+  }
+
+  .card-img-top{
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 425px) {
+
 }
