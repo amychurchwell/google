@@ -7,6 +7,10 @@ body !h1 {
   font-family: 'Roboto', sans-serif;
 }
 
+.material-icons {
+  font-size: 16px;
+}
+
 /*HEADER*/
 
 .jumbotron-fluid {
@@ -76,6 +80,11 @@ body !h1 {
   /*MARKETER TOOLS*/
 
 /*FOOTER*/
+
+footer {
+  background-color: #3367d6;
+  color: #fff;
+}
 
 /*MEDIA QUERIES*/
 
