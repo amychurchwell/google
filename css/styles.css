@@ -1,0 +1,47 @@
+/*GLOBAL*/
+
+/*google blue: #3367d6*/
+
+body {
+  background-color: #f5f5f5;
+  font-family: 'Roboto', sans-serif;
+}
+
+/*HEADER*/
+
+.jumbotron-fluid {
+  padding-top: 0;
+}
+
+  /*NAV*/
+
+  .logo {
+    width: 200px;
+    height: auto;
+    display: inline;
+  }
+
+/*BODY*/
+
+  /*ARTICLES*/
+
+  .card {
+    height: 100%;
+    margin-bottom: 3em;
+  }
+
+  .large-article1 {
+    background-color: red;
+    height: 100%;
+  }
+
+  .large-article2 {
+    background-color: blue;
+    height: 100%;
+  }
+
+  /*RESOURCES*/
+
+  /*MARKETER TOOLS*/
+
+/*FOOTER*/
