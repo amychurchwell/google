@@ -1,7 +1,7 @@
 # Re-Build of Think with Google
 December 1, 2017.
 
-A responsive recreation of the Think With Google page.
+A responsive recreation of the [Think With Google](https://www.thinkwithgoogle.com/) page.
 
 ## Known Bugs
 
@@ -9,8 +9,8 @@ Currently no known bugs.
 
 ### Installing
 
-####GITHUB PAGES
-Open web browser and go to [Github Pages](https://amychurchwell.github.io/google/index.html)
+#### GITHUB PAGES
+Open web browser and go to [Github Pages](https://amychurchwell.github.io/google/)
 
 ## Built With
 
