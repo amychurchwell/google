@@ -2,7 +2,7 @@
 
 /*google blue: #3367d6*/
 
-body {
+body !h1 {
   background-color: #f5f5f5;
   font-family: 'Roboto', sans-serif;
 }
@@ -11,14 +11,40 @@ body {
 
 .jumbotron-fluid {
   padding-top: 0;
+  background-color: #fff;
 }
 
+.display-4 {
+  font-size: 1.5rem;
+  font-weight: 250;
+  line-height: 1.2;
+}
+
+.lead, .btn-subscribe {
+  display: none;
+}
+
+.btn-subscribe{
+  background-color: #3367d6;
+  padding: 12px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 200;
+  font-size: 11px;
+}
   /*NAV*/
+  .navbar {
+    justify-content: flex-start;
+  }
+
+  /*.navbar-toggler{
+    border: 0;
+  }*/
 
   .logo {
     width: 200px;
     height: auto;
-    display: inline;
+    margin: 5px;
   }
 
 /*BODY*/
@@ -26,7 +52,7 @@ body {
   /*ARTICLES*/
 
   .card {
-    height: 100%;
+    height: 200%;
     margin-bottom: 3em;
   }
 
@@ -45,3 +71,14 @@ body {
   /*MARKETER TOOLS*/
 
 /*FOOTER*/
+
+
+@media screen and (min-width: 768px){
+  .card {
+    height: 100%;
+  }
+
+  .lead, .btn-subscribe{
+    display: block;
+  }
+}
