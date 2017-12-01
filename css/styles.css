@@ -7,8 +7,9 @@ body !h1 {
   font-family: 'Roboto', sans-serif;
 }
 
-.material-icons {
+.material-icons !#search-icon {
   font-size: 16px;
+  vertical-align: bottom;
 }
 
 /*HEADER*/
@@ -16,6 +17,10 @@ body !h1 {
 .jumbotron-fluid {
   padding-top: 0;
   background-color: #fff;
+  background-image: url(../img/hero-image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
 .display-4 {
@@ -24,9 +29,7 @@ body !h1 {
   line-height: 1.2;
 }
 
-.lead, .btn-subscribe {
-  display: none;
-}
+
 
 .btn-subscribe{
   background-color: #3367d6;
@@ -39,6 +42,10 @@ body !h1 {
   /*NAV*/
   .navbar {
     justify-content: flex-start;
+  }
+
+  #search-icon{
+    float: right;
   }
 
   .navbar-toggler{
@@ -62,13 +69,14 @@ body !h1 {
 
   .card-img-top {
     background-color: #cfd8dd;
-    display: none;
+    display: flex;
   }
 
   .card-img-left {
     float: left;
     width: 50%;
     padding-right: 20px;
+    display: none;
   }
 
   .card-body{
@@ -88,24 +96,42 @@ footer {
 
 /*MEDIA QUERIES*/
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width:768px) and (max-width: 990px) {
+
+  .jumbotron-fluid {
+    background-color: none;
+    background-image: none;
+  }
+
+  .card-img-left {
+    display: none;
+  }
+
+  .lead, .btn-subscribe {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
   .card {
     height: 100%;
   }
 
-  .lead, .btn-subscribe{
-    display: block;
+  .jumbotron-fluid {
+    background-color: none;
+    background-image: none;
   }
 
-  .card-img-left{
+  .lead, .btn-subscribe {
     display: none;
   }
 
-  .card-img-top{
+  .card-img-left {
     display: flex;
   }
-}
 
-@media screen and (max-width: 425px) {
-
+  .card-img-top {
+    display: none;
+  }
 }
